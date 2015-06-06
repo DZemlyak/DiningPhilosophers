@@ -1,0 +1,4 @@
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\bin\Debug\DiningPhilosophers.Contracts.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\bin\Debug\DiningPhilosophers.Contracts.pdb
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\obj\Debug\DiningPhilosophers.Contracts.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\obj\Debug\DiningPhilosophers.Contracts.pdb

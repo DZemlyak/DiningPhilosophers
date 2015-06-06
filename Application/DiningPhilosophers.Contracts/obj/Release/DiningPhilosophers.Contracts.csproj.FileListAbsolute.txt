@@ -1,0 +1,5 @@
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\bin\Release\DiningPhilosophers.Contracts.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\bin\Release\DiningPhilosophers.Contracts.pdb
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\obj\Release\DiningPhilosophers.Contracts.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\obj\Release\DiningPhilosophers.Contracts.pdb
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.Contracts\obj\Release\DiningPhilosophers.Contracts.csprojResolveAssemblyReference.cache

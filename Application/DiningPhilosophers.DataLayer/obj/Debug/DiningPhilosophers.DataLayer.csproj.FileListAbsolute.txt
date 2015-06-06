@@ -1,0 +1,7 @@
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\bin\Debug\DiningPhilosophers.DataLayer.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\bin\Debug\DiningPhilosophers.DataLayer.pdb
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\bin\Debug\DiningPhilosophers.Contracts.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\bin\Debug\DiningPhilosophers.Contracts.pdb
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\obj\Debug\DiningPhilosophers.DataLayer.csprojResolveAssemblyReference.cache
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\obj\Debug\DiningPhilosophers.DataLayer.dll
+E:\Учеба\Семестр 3.6\СПО (Курсовой проект)\Курсовой\DiningPhilosophers\DiningPhilosophers\Application\DiningPhilosophers.DataLayer\obj\Debug\DiningPhilosophers.DataLayer.pdb

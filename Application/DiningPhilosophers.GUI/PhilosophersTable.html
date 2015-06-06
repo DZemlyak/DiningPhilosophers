@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dining philosophers</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+        var f1p1Top = "+=70px";
+        var f1p1Left = "-=20px";
+        var f1p2Top = "+=45px";
+        var f1p2Left = "+=40px";
+        var f2p2Top = "+=35px";
+        var f2p2Left = "+=65px";
+        var f2p3Top = "-=45px";
+        var f2p3Left = "+=70px";
+        var f3p3Top = "-=40px";
+        var f3p3Left = "+=70px";
+        var f3p4Top = "-=20px";
+        var f3p4Left = "-=90px";
+        var f4p4Top = "-=45px";
+        var f4p4Left = "-=65px";
+        var f4p5Top = "+=40px";
+        var f4p5Left = "-=65px";
+        var f5p5Top = "+=40px";
+        var f5p5Left = "-=65px";
+        var f5p1Top = "+=70px";
+        var f5p1Left = "-=30px";
+
+        var f1Top = "125px";
+        var f1Left = "5px";
+        var f2Top = "-10px";
+        var f2Left = "130px";
+        var f3Top = "-60px";
+        var f3Left = "30px";
+        var f4Top = "-10px";
+        var f4Left = "-75px";
+        var f5Top = "60px";
+        var f5Left = "-100px";
+        
+        function animateFork(f, p, back) {
+            var fork = $("#f" + f);
+            var top = 0, left = 0;
+            switch (f) {
+            case 1:
+                switch (p) {
+                case 1:
+                    top = f1p1Top;
+                    left = f1p1Left;
+                    break;
+                case 2:
+                    top = f1p2Top;
+                    left = f1p2Left;
+                    break;
+                default:
+                    return;
+                }
+                break;
+            case 2:
+                switch (p) {
+                case 2:
+                    top = f2p2Top;
+                    left = f2p2Left;
+                    break;
+                case 3:
+                    top = f2p3Top;
+                    left = f2p3Left;
+                    break;
+                default:
+                    return;
+                }
+                break;
+            case 3:
+                switch (p) {
+                case 3:
+                    top = f3p3Top;
+                    left = f3p3Left;
+                    break;
+                case 4:
+                    top = f3p4Top;
+                    left = f3p4Left;
+                    break;
+                default:
+                    return;
+                }
+                break;
+            case 4:
+                switch (p) {
+                case 4:
+                    top = f4p4Top;
+                    left = f4p4Left;
+                    break;
+                case 5:
+                    top = f4p5Top;
+                    left = f4p5Left;
+                    break;
+                default:
+                    return;
+                }
+                break;
+            case 5:
+                switch (p) {
+                case 1:
+                    top = f5p1Top;
+                    left = f5p1Left;
+                    break;
+                case 5:
+                    top = f5p5Top;
+                    left = f5p5Left;
+                    break;
+                default:
+                    return;
+                }
+                break;
+            default:
+                return;
+            }
+            if (back) {
+                resetForks(f);
+                return;
+            }
+            $(fork).animate({
+                top: top,
+                left: left
+            });
+        }
+
+        function IsSet(f) {
+            var fork = $("#f" + f);
+            switch (f) {
+                case 1:
+                    if ($(fork).css("top") === f1Top)
+                        return true;
+                case 2:
+                    if ($(fork).css("top") === f2Top)
+                        return true;
+                case 3:
+                    if ($(fork).css("top") === f3Top)
+                        return true;
+                case 4:
+                    if ($(fork).css("top") === f4Top)
+                        return true;
+                case 5:
+                    if ($(fork).css("top") === f5Top)
+                        return true;
+            }
+            return false;
+        }
+
+        function resetForks(f) {
+            var fork = $("#f" + f);
+            var top = 0, left = 0;
+            switch (f) {
+                case 1:
+                    top = f1Top;
+                    left = f1Left;
+                    break;
+                case 2:
+                    top = f2Top;
+                    left = f2Left;
+                    break;
+                case 3:
+                    top = f3Top;
+                    left = f3Left;
+                    break;
+                case 4:
+                    top = f4Top;
+                    left = f4Left;
+                    break;
+                case 5:
+                    top = f5Top;
+                    left = f5Left;
+                    break;
+            }
+            $(fork).animate({
+                top: top,
+                left: left
+            });
+        }
+    </script>
+</head>
+<body>
+<div>
+    
+    <img id="p1" class="phil" src="Images/Малый.png" alt=""/>
+    <img id="p2" class="phil" src="Images/Малый.png" alt=""/>
+    <img id="p3" class="phil" src="Images/Малый.png" alt=""/>
+    <img id="p4" class="phil" src="Images/Малый.png" alt=""/>
+    <img id="p5" class="phil" src="Images/Малый.png" alt=""/>
+    <img id="f1" class="fork" src="Images/Вилка1.png" alt=""/>
+    <img id="f2" class="fork" src="Images/Вилка2.png" alt=""/>
+    <img id="f3" class="fork" src="Images/Вилка3.png" alt=""/>
+    <img id="f4" class="fork" src="Images/Вилка4.png" alt=""/>
+    <img id="f5" class="fork" src="Images/Вилка5.png" alt=""/>
+    <span id="ptext1">Философ 1</span>
+    <span id="ptext2">Философ 2</span>
+    <span id="ptext3">Философ 3</span>
+    <span id="ptext4">Философ 4</span>
+    <span id="ptext5">Философ 5</span>
+    <img id="table" src="Images/Больой.png" alt=""/>
+</div>
+
+</body>
+</html>

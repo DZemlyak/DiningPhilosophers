@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: RGB(240, 240, 240);
+}
+body div {
+    width: 200px;
+    margin: auto;
+}
+.phil, span {
+    position: relative;
+    width: 50px;
+}
+.fork {position: relative; }
+#table {
+    margin-top: -200px;
+    width: 200px;
+}
+.phil, .fork {
+    position:relative;
+}
+#p1 { left: 55px; top: 260px }
+#p2 { left: 130px; top: 200px; }
+#p3 { left: 75px; top: 50px; }
+#p4 { left: -50px; top: -10px; }
+#p5 { left: -105px; top: 140px; }
+#ptext1 { top: 110px; left: 130px; }
+#ptext2 { top: 50px; left: 180px; }
+#ptext3 { top: -150px; left: 250px; }
+#ptext4 { top: -145px; left: -205px; }
+#ptext5 { top: 15px; left: -130px}
+#f1 { top: 125px; left: 5px; width: 50px; }
+#f2 { top: -10px; left: 130px; width: 60px; }
+#f3 { top: -60px; left: 30px; height: 60px }
+#f4 { top: -10px; left: -75px; width: 60px }
+#f5 { top: 60px; left: -100px; width: 50px; }
